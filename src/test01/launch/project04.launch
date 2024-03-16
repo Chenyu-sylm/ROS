@@ -1,0 +1,7 @@
+<launch>
+    <node pkg="turtlesim" type="turtlesim_node" name="set_color" output="screen">
+        <param name="background_b" value="255" type="int" />
+        <param name="background_g" value="255" type="int" />
+        <param name="background_r" value="255" type="int" />
+    </node>
+</launch>

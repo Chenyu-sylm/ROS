@@ -1,0 +1,15 @@
+<launch>
+    <!-- 利用launch文件一次性启动多个节点 -->
+    <!-- 
+        node 指明包含的某个节点
+        pkg  节点所在的功能包
+        type 被运行的节点文件，写入文件名
+        name 为节点再起名字,在rqt中显示的就是重新命名后的节点名字
+        output 输出日志
+     -->
+    <!-- 启动文件01的节点和乌龟节点 -->
+    <node pkg="test01" type="HelloWorld" name="HelloWorld" output="screen" />
+    <node pkg="turtlesim" type="turtlesim_node" name="t1" />
+    <node pkg="turtlesim" type ="turtle_teleop_key" name="t2" />
+
+</launch>
