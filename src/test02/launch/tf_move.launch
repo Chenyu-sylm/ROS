@@ -1,0 +1,7 @@
+<!-- 使用launch同时启动乌龟节点和tf_move文件 -->
+<launch>
+    <node pkg="turtlesim" type="turtlesim_node" name="turtle" />
+    <node pkg="turtlesim" type="turtle_teleop_key" name="keyboard" />
+    <node pkg="test02" type="tf_move_pub"  name="pub" output="screen" />
+    <node pkg="test02" type="tf_move_sub"  name="sub" output="screen" />
+</launch>

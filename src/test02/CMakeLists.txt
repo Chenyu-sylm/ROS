@@ -142,6 +142,10 @@ add_executable(tf_translate src/tf_translate.cpp)
 add_executable(tf_translate02 src/tf_translate02.cpp)
 add_executable(tf_move_pub src/tf_move_pub.cpp)
 add_executable(tf_move_sub src/tf_move_sub.cpp)
+add_executable(project1_1 src/project1_1.cpp)
+add_executable(project1_2 src/project1_2.cpp)
+add_executable(project1_3 src/project1_3.cpp)
+add_executable(project1_4 src/project1_4.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -156,7 +160,10 @@ add_dependencies(tf_translate ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPOR
 add_dependencies(tf_translate02 ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 add_dependencies(tf_move_pub ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 add_dependencies(tf_move_sub ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
-
+add_dependencies(project1_1 ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+add_dependencies(project1_2 ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+add_dependencies(project1_3 ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+add_dependencies(project1_4 ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Specify libraries to link a library or executable target against
 # target_link_libraries(${PROJECT_NAME}_node
@@ -173,6 +180,18 @@ target_link_libraries(tf_move_pub
 )
 target_link_libraries(tf_move_sub
   ${catkin_LIBRARIES}
+)
+target_link_libraries(project1_1
+  ${catkin_LIBRARIES}
+)
+target_link_libraries(project1_2
+  ${catkin_LIBRARIES}
+)
+target_link_libraries(project1_3
+  ${catkin_LIBRARIES}
+)
+target_link_libraries(project1_4
+${catkin_LIBRARIES}
 )
 #############
 ## Install ##

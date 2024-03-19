@@ -1,0 +1,10 @@
+<!-- 同时启动乌龟生成节点和坐标转换关系文件 -->
+<launch>
+    <node pkg="turtlesim" type="turtlesim_node" name="turtle1" /> 
+    <node pkg="turtlesim" type="turtle_teleop_key" name="keyboard" />
+    <node pkg="test02"    type="project1_1"     name="solider"  />
+    <node pkg="test02"    type="project1_2"     name="broadcast1"  />
+    <node pkg="test02"    type="project1_3"     name="broadcast2"  />
+    <node pkg="test02"    type="project1_4"     name="transform"  />
+
+</launch>
