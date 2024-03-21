@@ -1,0 +1,8 @@
+prefix=/home/chenyu/Mycode/install
+
+Name: test03
+Description: Description of test03
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
