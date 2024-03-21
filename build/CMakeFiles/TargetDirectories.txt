@@ -120,3 +120,11 @@
 /home/chenyu/Mycode/build/test02/CMakeFiles/tf_translate02.dir
 /home/chenyu/Mycode/build/test02/CMakeFiles/tf_move_sub.dir
 /home/chenyu/Mycode/build/test02/CMakeFiles/project1_3.dir
+/home/chenyu/Mycode/build/test03/CMakeFiles/install/strip.dir
+/home/chenyu/Mycode/build/test03/CMakeFiles/install/local.dir
+/home/chenyu/Mycode/build/test03/CMakeFiles/install.dir
+/home/chenyu/Mycode/build/test03/CMakeFiles/list_install_components.dir
+/home/chenyu/Mycode/build/test03/CMakeFiles/rebuild_cache.dir
+/home/chenyu/Mycode/build/test03/CMakeFiles/edit_cache.dir
+/home/chenyu/Mycode/build/test03/CMakeFiles/test.dir
+/home/chenyu/Mycode/build/test03/CMakeFiles/test03_xacro_generated_to_devel_space_.dir

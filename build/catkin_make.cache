@@ -1,2 +1,2 @@
-test01:test02
+test01:test02:test03
 -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/chenyu/Mycode/devel -DCMAKE_INSTALL_PREFIX=/home/chenyu/Mycode/install -G Unix Makefiles
