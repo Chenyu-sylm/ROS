@@ -134,6 +134,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/chenyu/Mycode/build/test01/cmake_install.cmake")
   include("/home/chenyu/Mycode/build/test02/cmake_install.cmake")
   include("/home/chenyu/Mycode/build/test03/cmake_install.cmake")
+  include("/home/chenyu/Mycode/build/test04/cmake_install.cmake")
 
 endif()
 

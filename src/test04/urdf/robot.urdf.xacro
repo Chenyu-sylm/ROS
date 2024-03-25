@@ -1,0 +1,10 @@
+<!-- 组合小车底盘与摄像头,雷达 -->
+<robot name="my_robot" xmlns:xacro="http://wiki.ros.org/xacro">
+    <!-- 惯性矩阵文件要放在第一个，便于后续文件解析使用，不然会报错 -->
+    <xacro:include filename="intertial.urdf.xacro" />
+    <xacro:include filename="robot_baselink.urdf.xacro" />
+    <xacro:include filename="sensor_laser.urdf.xacro" />
+    <xacro:include filename="camera.urdf.xacro" />
+    <xacro:include filename="laser.urdf.xacro" />
+    <xacro:include filename="move.urdf.xacro" />
+</robot>
